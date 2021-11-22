@@ -1,6 +1,6 @@
 package linkedlist;
 
-public class Detect {
+public class CycleDetection {
 	 Node head;
 	  static class Node {
 	    int value;
@@ -30,7 +30,7 @@ public class Detect {
 	  }
 
 	  public static void main(String[] args) {
-	   Detect linkedList = new Detect();
+	   CycleDetection linkedList = new  CycleDetection();
 	    linkedList.head = new Node(1);
 	    Node second = new Node(2);
 	    Node third = new Node(3);
